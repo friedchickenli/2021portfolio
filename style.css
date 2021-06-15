@@ -13,6 +13,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding-top:2rem;
 }
 
 .gradientBackground {
@@ -95,4 +96,51 @@ body {
   height: 350px;
   object-fit: contain;
   position: relative;
+}
+
+.navigation{
+  padding-top: 2rem;
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 0.5fr;
+  align-items: center;
+  column-gap: 2.5rem;
+  
+}
+.button{
+  font-family: "Rubik", sans-serif;
+  font-weight: 800px;
+  font-style: italic;
+  font-size: 1.5rem;
+  padding: 0.5rem 1.5rem;
+  -webkit-text-stroke-width: 1.3px;
+  -webkit-text-stroke-color: #404040;
+
+  border: 3px solid #404040;
+  border-radius: 20px;
+  /* color: #f9f9f9; */
+}
+
+#homeB{
+  background: #8fc6f0;
+}
+
+#aboutMeB{
+  background: #f4d9d4;
+}
+
+#workB{
+  background: #F4DBF1;
+}
+
+a:link,a:visited,a:active{
+  -webkit-text-stroke-width: 1.3px;
+  -webkit-text-stroke-color: #404040;
+  color:#f9f9f9;
+  text-decoration: none !important;
+}
+
+a:hover{
+  -webkit-text-stroke-width: 1.3px;
+  -webkit-text-stroke-color: #404040;
+  color:linear-gradient(135deg, #f4d9d4 0%, #8fc6f0 100%);
 }
