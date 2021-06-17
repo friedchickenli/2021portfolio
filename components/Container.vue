@@ -27,11 +27,11 @@
     z-index: 1;
   }
   #star1 {
-  left: -40px;
-  top: -40px;
+  left: -42px;
+  top: -45px;
   }
   #star2 {
-    right: -40px;
-    bottom: -40px;
+    right: -42px;
+    bottom: -45px;
   }
 </style>
