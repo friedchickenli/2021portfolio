@@ -43,8 +43,8 @@ body {
 .titleWithOutline {
   font-family: "Rubik", sans-serif;
   font-size: 5rem;
-  font-weight: bold;
-  letter-spacing: 0.8rem;
+  font-weight: 800;
+  letter-spacing: 0.5rem;
   color: transparent;
   -webkit-text-stroke-width: 3px;
   -webkit-text-stroke-color: #404040;
@@ -67,8 +67,9 @@ body {
   font-weight: medium;
   font-size: 1rem;
   color: #404040;
-  letter-spacing: 3px;
-  position: relative;
-  
+  letter-spacing: 2px;
+}
+.pText p:not(:last-of-type) {
+  margin-bottom: 1rem;
 }
 </style>

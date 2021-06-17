@@ -39,6 +39,11 @@
   grid-template-columns: 1fr 1fr;
   align-items: center;
 }
+#aboutStructure{
+  padding-top:3rem;
+  padding-left:1rem;
+}
+
 #aboutTitle .titleWithOutline::after {
   color: #8fc6f0;
 }
@@ -52,9 +57,11 @@
 .pText strong{
   color:#494949;
   background-color:#F4DBF1;
+  
 }
+
 #aboutImageContainer {
-  height: 80%;
+  height:80%;
   width:100%;
 }
 #aboutImageContainer img {
@@ -62,25 +69,37 @@
   height:100%;
   object-fit: contain;
 }
+
+#contacts{
+  padding-bottom:1rem;
+}
 #contacts .titleWithOutline {
-font-size:4rem;
-letter-spacing: 0.5rem;
+font-size:3rem;
+letter-spacing: 0.1rem;
+padding-left:8rem;
+font-weight: 800;
+-webkit-text-stroke-width: 0.15rem;
+-webkit-text-stroke-color: #404040;
 }
 
 #contacts .titleWithOutline::after {
   color: #f4d9d4;
-  width:100%;
 }
+
 .contactItemContainer{
   display: flex;
   flex-direction: row;  
-  padding-left: 3rem;
+  padding-top:0.5rem;
+  padding-left: 11rem;
 }
 
 .contactItem img {
-    width:100px;
-    height:100px;
+    width:55px;
+    height:55px;
     object-fit: contain;
+}
+.contactItem{
+  padding-right: 30px;
 }
 
 </style>
