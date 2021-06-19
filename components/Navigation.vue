@@ -25,6 +25,7 @@
 .button{
   font-family: "Rubik", sans-serif;
   font-style: italic;
+  font-weight: bold;
   font-size: 1.5rem;
   padding: 0.5rem 1.5rem;
   -webkit-text-stroke-width: 1.3px;
